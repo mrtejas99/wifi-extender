@@ -1,8 +1,3 @@
----
-
-
----
-
 <h1 id="truly-wifi-extender">Truly WiFi Extender</h1>
 <p><img src="https://i.imgur.com/J3TLIIc.png" alt="Graphical Visualisation"></p>
 <h2 id="introduction">Introduction</h2>
