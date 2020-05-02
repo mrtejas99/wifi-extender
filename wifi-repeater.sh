@@ -36,7 +36,7 @@ EOF
     systemctl enable wpa_supplicant@wlan0.service
 
     cat > /etc/wpa_supplicant/wpa_supplicant-wlan1.conf <<EOF
-country=DE
+country=IN
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 
@@ -55,7 +55,7 @@ EOF
     [Match]
     Name=wlan0
     [Network]
-    Address=192.168.4.1/24
+    Address=192.168.7.1/24
     # IPMasquerade is doing NAT
     IPMasquerade=yes
     IPForward=yes
