@@ -7,6 +7,8 @@
 <h2 id="software">Software</h2>
 <p>For this project, I will be using Raspbian Stretch Lite. You can download it on the official <a href="https://www.raspberrypi.org/downloads/raspbian/">Raspberry Pi website</a>.  You can use the newer version of Raspbian as well.</p>
 <p>The main packages on which this project is <code>wpa_supplicant</code>. Since Raspbian is Linux based and uses  <code>wpa_supplicant</code>  to manage WiFi cards, we can easily set up this computer as a WiFi access point. You even don’t need  <a href="http://w1.fi/hostapd">hostapd</a>  - just  <code>wpa_supplicant</code>  and <code>systemd-networkd</code></p>
+<p>View my project on Hackaday <a href="https://hackaday.io/project/171296-truly-wifi-extender">Hackaday</a></br>View my project on Instructables <a href="https://www.instructables.com/id/Truly-WiFi-Extender/">Instructables</a></br>View my project on Hackster <a href="https://www.hackster.io/mrtejas99/truly-wifi-extender-762b3e">Hackster</a></p>
+
 <h2 id="implementation">Implementation</h2>
 <h3 id="prerequisites">Prerequisites</h3>
 <p>For flashing the image onto the SD card I have used <a href="https://github.com/balena-io/etcher">BalenaEtcher</a><br>
@@ -161,6 +163,5 @@ DHCP<span class="token operator">=</span>yes
 <li><a href="https://wiki.archlinux.org/index.php/Systemd-networkd">systemd-networkd</a></li>
 <li><a href="https://raspberrypi.stackexchange.com/questions/78787/howto-migrate-from-networking-to-systemd-networkd-with-dynamic-failover/78788#78788">how to migrate from networking to systemd networkd with dynamic failover</a></li>
 <li><a href="https://linux.die.net/man/8/sudo">sudo man page</a></li>
-<li></li>
 </ul>
 
