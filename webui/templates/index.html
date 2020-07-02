@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>WiFi configuration</title>
+    <link href="{{ url_for('static', filename='bootstrap.min.css') }}" rel="stylesheet" id="bootstrap-css">
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" id="bootstrap-css">
+    <script src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='jquery.min.js') }}"></script>
+</head>
+<body>
+    <div class="wrapper fadeInDown">
+		<div id="formContent">
+			<!-- Header -->
+			<div class="fadeIn first">
+			<h4>WiFi Configuration</h4>
+			</div>
+
+			<!-- Login Form -->
+		<form action="/connect" method="POST">
+		  <input type="text" id="ssid" class="fadeIn second" name="ssid" placeholder="SSID">
+		  <input type="text" id="pass" class="fadeIn third" name="pass" placeholder="Password">
+		  <input type="submit" class="fadeIn fourth" value="Connect">
+		</form>
+		</div>
+    </div>
+</body>
+</html>
