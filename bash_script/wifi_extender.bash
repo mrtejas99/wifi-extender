@@ -179,6 +179,9 @@ uninstall() {
     systemctl enable wpa_supplicant.service
     rm -rf /etc/resolv.conf
     cp /etc/{resolv.conf~,resolv.conf}
+    echo "done. rebooting..."
+    sleep 2
+    /sbin/reboot
 }
 
 
