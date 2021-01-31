@@ -190,7 +190,7 @@ uninstall() {
 echo "Welcome!"
 echo "This script will turn your Raspberry pi into wifi extender! (repeater)"
 echo "Please choose your plan"
-echo "1. Install"
+echo "1. Install / reinstall"
 echo "2. Uninstall"
 echo "3. cancel"
 while true; do
