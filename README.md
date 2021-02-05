@@ -17,6 +17,11 @@
 <li>Part 3: Installing the webUI ,its dependencies and demonstration <a href="https://youtu.be/yaaoag_H_WI">https://youtu.be/yaaoag_H_WI</a></li>
 </ul>
 
+<h2 id="additional-features">Additional Features</h2>
+<ul>
+<li>If you want to check how to set up a web UI to take SSID and Password from the user, check this <a href="https://github.com/mrtejas99/wifi-extender/tree/master/webui">webUI</a></li>
+<li>If you want to check how to set up WiFi extender by simply running a script(THE EASY WAY), check this page  <a href="https://github.com/mrtejas99/wifi-extender/tree/master/bash_script">Script</a></li>
+</ul>
 
 <h2 id="implementation">Implementation</h2>
 <h3 id="prerequisites">Prerequisites</h3>
