@@ -98,6 +98,9 @@ config_wpsup() {
         echo '  ssid="'${NEW_SSID}'"'
         echo "  mode=2"
         echo "  key_mgmt=WPA-PSK"
+        echo "  proto=RSN"
+        echo "  pairwise=CCMP"
+        echo "  group=CCMP"
         echo '  psk='`generate_wpa2_psk $NEW_SSID $NEW_PASS`
         echo "  frequency=2412"
         echo "}"
