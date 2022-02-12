@@ -91,7 +91,7 @@ setup_systemd_networkd() {
 
 config_wpsup() {
     {
-        echo "country=IN"
+        echo "country=US"
         echo "ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev"
         echo "update_config=1"
         echo "network={"
@@ -115,7 +115,7 @@ config_wpsup() {
 
 setup_wlan1_client() {
     {
-        echo "country=IN"
+        echo "country=US"
         echo "ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev"
         echo "update_config=1"
         echo "network={"
@@ -136,7 +136,7 @@ configure_interfaces() {
         echo "[Match]"
         echo "Name=$WLAN0"
         echo "[Network]"
-        echo "Address=192.168.7.1/24"
+        echo "Address=10.0.0.1/24"
         echo "IPMasquerade=yes"
         echo "IPForward=yes"
         echo "DHCPServer=yes"
